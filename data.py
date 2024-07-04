@@ -84,7 +84,7 @@ class GeniusLyrics:
 
 # Example usage:
 if __name__ == "__main__":
-    api_key = "CWKzpkC1rKr3NYjOcUISrntR8kod2pqMei8a0b9ZISQL5FzY95EtlaNNKnls93RR"  # Replace with your Genius API key
+    api_key = ""  # Replace with your Genius API key
     genius = GeniusLyrics(api_key)
     artist_name = "Damso"  # Example artist name
     result = genius.get_all_lyrics_by_artist(artist_name)
